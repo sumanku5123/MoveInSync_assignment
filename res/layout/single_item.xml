@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:id="@+id/Linear"
+        android:padding="10dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox"
+            android:textColor="#000000"
+            android:layout_weight="0.2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="01"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/id"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Suman Kumar"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:text="100"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/Marks"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="fifth"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:id="@+id/myclass"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
